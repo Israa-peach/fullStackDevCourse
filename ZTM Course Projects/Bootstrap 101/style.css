@@ -1,0 +1,46 @@
+
+
+body {
+	background-color: bisque;
+	background: url(Landing-Page.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: Playfair Display, serif;
+}
+
+strong {
+	color: darkblue;
+	font-size: 1.2em;
+}
+
+.tete strong {
+	display: inline-block;
+	will-change: transform, opacity;
+}
+
+
+.sect {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	margin-left: 5rem;
+}
+
+.btn {
+	width: 20%;
+	min-width: 80px;
+	max-width: 180px;
+	border-radius: 300px;
+	background-color: darkblue;
+	border-color: darkblue;
+	font-weight: 700;
+	padding: 10px;
+}
+
+hr {
+    margin: 20px;
+    color: darkblue;
+    border: 3px solid darkblue;
+    width: 65px;
+    opacity: 1;  
+}
